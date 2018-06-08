@@ -1,4 +1,4 @@
-window.dyngaugeID=1;
+window.dyngaugeID=0;
 (function() {    
         var dynamicGaugeWidget = function (settings) {
         var self = this;
@@ -26,9 +26,8 @@ window.dyngaugeID=1;
                 label: currentSettings.units,
                 showInnerShadow: false,
                 valueFontColor: "#d3d4d4",
-                levelColors: ['#00ff00', '#ffa500','#ffa500','#ffff00','#ff0000' ]
-
-				});
+                levelColors: ['#ff0000', '#ffa500','#ffa500','#ffff00', '#00ff00']
+            });
         }
 
         this.render = function (element) {
